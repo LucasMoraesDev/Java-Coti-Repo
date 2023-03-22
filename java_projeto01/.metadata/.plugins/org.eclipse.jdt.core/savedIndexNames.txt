@@ -1,0 +1,2 @@
+INDEX VERSION 1.132+/home/moraes/eclipse-workspace/java_projeto01/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
