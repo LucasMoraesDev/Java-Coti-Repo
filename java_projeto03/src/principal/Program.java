@@ -16,8 +16,6 @@ public class Program {
 			System.out.println("(4) CONSULTAR CLIENTES");
 			System.out.println("(0) SAIR");
 
-			
-
 			System.out.print("\nENTRE COM A OPÇÃO DESEJADA..: ");
 			opcao = Integer.parseInt(scanner.nextLine());
 
@@ -39,7 +37,7 @@ public class Program {
 			case 4:
 				clienteController.consultarClientes();
 				break;
-				
+
 			case 0:
 				System.out.println("\nBYE BYE!");
 				break;
@@ -47,10 +45,8 @@ public class Program {
 			default:
 				System.out.println("\nOpção inválida.");
 			}
-		}
-		while(opcao != 0);
+		} while (opcao != 0);
 
-		
 	}
 
 }

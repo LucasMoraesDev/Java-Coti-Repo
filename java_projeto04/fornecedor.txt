@@ -1,0 +1,5 @@
+
+Fornecedor [idFornecedor=1, nome=Loja de Informática, cnpj=96.333.814/0001-17]
+	Produto [idProduto=1, nome=Notebook, preco=5000.0, quantidade=10]
+	Produto [idProduto=2, nome=TV, preco=4000.0, quantidade=20]
+	Produto [idProduto=3, nome=Mochila, preco=600.0, quantidade=15]
