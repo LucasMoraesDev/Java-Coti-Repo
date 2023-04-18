@@ -5,10 +5,10 @@ import java.sql.DriverManager;
 
 public class ConnectionFactory {
 
-	// m√©todo para abrir conex√£o com um banco de dados do PostGreSQL
+	// mÈtodo para abrir conex„o com um banco de dados do PostGreSQL
 	public Connection getConnection() throws Exception {
 
-		// par√¢metros de conex√£o
+		// par‚metros de conex„o
 		String driver = "org.postgresql.Driver";
 		String host = "jdbc:postgresql://localhost:5432/bd_agendacontatos";
 		String user = "postgres";

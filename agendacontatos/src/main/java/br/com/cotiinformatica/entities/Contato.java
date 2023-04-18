@@ -8,16 +8,22 @@ public class Contato {
 	private String email;
 	private String observacoes;
 	private Integer idUsuario;
-	private Usuario usuario; // composiÃ§Ã£o
+	private Usuario usuario; // composição
 
 	public Contato() {
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
-	public String toString() {
-		return "Contato [idContato=" + idContato + ", nome=" + nome + ", telefone=" + telefone + ", email=" + email
-				+ ", observacoes=" + observacoes + ", idUsuario=" + idUsuario + ", usuario=" + usuario + "]";
+	public Contato(Integer idContato, String nome, String telefone, String email, String observacoes, Integer idUsuario,
+			Usuario usuario) {
+		super();
+		this.idContato = idContato;
+		this.nome = nome;
+		this.telefone = telefone;
+		this.email = email;
+		this.observacoes = observacoes;
+		this.idUsuario = idUsuario;
+		this.usuario = usuario;
 	}
 
 	public Integer getIdContato() {
@@ -74,6 +80,12 @@ public class Contato {
 
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
+	}
+
+	@Override
+	public String toString() {
+		return "Contato [idContato=" + idContato + ", nome=" + nome + ", telefone=" + telefone + ", email=" + email
+				+ ", observacoes=" + observacoes + ", idUsuario=" + idUsuario + ", usuario=" + usuario + "]";
 	}
 
 }

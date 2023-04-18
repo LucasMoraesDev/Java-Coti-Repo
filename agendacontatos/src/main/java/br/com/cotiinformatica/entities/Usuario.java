@@ -14,10 +14,13 @@ public class Usuario {
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
-	public String toString() {
-		return "Usuario [idUsuario=" + idUsuario + ", nome=" + nome + ", email=" + email + ", senha=" + senha
-				+ ", contatos=" + contatos + "]";
+	public Usuario(Integer idUsuario, String nome, String email, String senha, List<Contato> contatos) {
+		super();
+		this.idUsuario = idUsuario;
+		this.nome = nome;
+		this.email = email;
+		this.senha = senha;
+		this.contatos = contatos;
 	}
 
 	public Integer getIdUsuario() {
@@ -58,6 +61,12 @@ public class Usuario {
 
 	public void setContatos(List<Contato> contatos) {
 		this.contatos = contatos;
+	}
+
+	@Override
+	public String toString() {
+		return "Usuario [idUsuario=" + idUsuario + ", nome=" + nome + ", email=" + email + ", senha=" + senha
+				+ ", contatos=" + contatos + "]";
 	}
 
 }
